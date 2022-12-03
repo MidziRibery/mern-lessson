@@ -2,8 +2,9 @@
   "name": "mongoose-lesson",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "seed": "node seed.js",
     "clear": "node clearDb.js"

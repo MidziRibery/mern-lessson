@@ -24,6 +24,7 @@ app.put("/shows/:id", updateOneShow);
 app.delete("/shows/:id", deleteOneShow);
 
 app.use(express.static("public")) // ADD THIS & create a folder "public"
+// to deploy front end to back end
 
 
 // Start server
